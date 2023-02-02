@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1300px) {
+    .ocultarLuffy {
+        display: none;
+    }
+}
+
+.cardHover:hover {
+    filter: saturate(180%);
+}
+
+
+@media only screen and (max-width: 771px) {
+    .mapa-ubicacion {
+        text-align:center ;
+    }
+}
+
+@media only screen and (max-width: 771px) {
+    .dir-ubicacion {
+        text-align:center;
+    }
+}
+
+
+
+@media only screen and (min-width: 770px) {
+    .mapa-ubicacion {
+        text-align:end ;
+    }
+}
+
+@media only screen and (min-width: 770px) {
+    .dir-ubicacion {
+        text-align:start;
+    }
+}
